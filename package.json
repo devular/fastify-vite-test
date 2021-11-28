@@ -3,12 +3,12 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "app.mjs",
+  "main": "index.mjs",
   "scripts": {
-    "dev": "nodemon app.mjs --watch",
-    "build": "node app.mjs build",
-    "serve": "cross-env NODE_ENV=production node app.mjs",
-    "debug": "node --inspect-brk app.mjs"
+    "dev": "nodemon index.mjs --watch",
+    "build": "node index.mjs build",
+    "serve": "cross-env NODE_ENV=production node index.mjs",
+    "debug": "node --inspect-brk index.mjs"
   },
   "author": "",
   "license": "ISC",
