@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Text } from "theme-ui";
 
 export default function Index() {
   const [counter, setCounter] = useState(0);
@@ -6,7 +7,9 @@ export default function Index() {
     <div>
       Value: {counter}
       <button onClick={() => setCounter(counter + 1)}>Increment</button>
-      <h1>Hello World this is and very fast?</h1>
+      <Text variant="heading" as="h1">
+        Hello World this is nice and very fast?
+      </Text>
     </div>
   );
 }
